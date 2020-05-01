@@ -1,0 +1,20 @@
+
+.work-section {
+    height: 200px !important;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.work-section-text {
+    flex: 1;
+}
+
+.work-section-image-wrapper {
+    height: inherit;
+    width: fit-content;
+}
+
+ .work-section-image {
+    height: inherit;
+}
