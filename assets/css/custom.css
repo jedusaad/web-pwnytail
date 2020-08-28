@@ -69,56 +69,68 @@ a {
 }
 
 .twitch{
-    outline: 100px solid rgba(112, 67, 160, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/twitch-meghan.jpg");
+    background-position: 40% -130px;
+    box-shadow:inset 0 0 0 2000px rgba(104, 19, 173, 0.473);
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .instagram{
-    outline: 100px solid rgba(216, 79, 132, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/instagram-meghan.jpg");
+    background-position: 40% -120px;
+    box-shadow:inset 0 0 0 2000px rgba(192, 1, 106, 0.534);
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .facebook{
-    outline: 100px solid rgba(71, 90, 149, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/facebook-meghan.jpg");
+    background-position: 20% -200px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(48, 85, 197, 0.473);
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .soundcloud{
-    outline: 100px solid rgba(253, 69, 0, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/soundcloud-meghan.jpg");
+    background-position: 40% -300px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(173, 48, 3, 0.685);
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .twitter{
-    outline: 100px solid rgba(64, 152, 201, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/twitter-meghan.jpg");
+    background-position: 40% -40px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(29, 114, 170, 0.473);
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .youtube{
-    outline: 100px solid rgba(255, 0, 0, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/youtube-meghan.jpg");
+    background-position: 40% -330px;
+    box-shadow:inset 0 0 0 2000px rgba(240, 43, 43, 0.527);
+
     overflow: hidden;
     position: relative;
     height: 100px;
 }
 
 .tiktok{
-    outline: 100px solid rgba(26, 0, 0, 0.1) !important;
-    outline-offset: -100px;
+    background: url("../../images/tiktok-meghan.jpg");
+    background-size: cover;
+    background-position: 40% -240px;
+    box-shadow:inset 0 0 0 2000px rgba(216, 79, 132, 0.1);
     overflow: hidden;
     position: relative;
     height: 100px;
