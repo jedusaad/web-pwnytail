@@ -240,14 +240,17 @@
 		result.data.data.products.edges.forEach(item => {
 			console.log(item.node);
 			products = `${products} 
-			<div class="product-item-wrapper">
-				<div class="product-item-image">
-					<img src="${item.node.images.edges[0].node.transformedSrc}" alt="" style="width: 100%;">
+			<a class="store-link" target="_blank" href="https://iluka-aji.myshopify.com/products/iluka-heart-pin">
+				<div class="product-item-wrapper">
+					<div class="product-item-image">
+						<img src="${item.node.images.edges[0].node.transformedSrc}" alt="" style="width: 100%;">
+					</div>
+					<div class="product-item-content">
+						<h3>${item.node.title}</h3>
+						<h5 style="text-align: center;" target="_blank">$15</h5>
+					</div>										
 				</div>
-				<div class="product-item-content">
-					<h3>${item.node.title}</h3>
-				</div>										
-			</div>
+			</a>
 			`;
 		});
 		// console.log(products);
@@ -255,3 +258,4 @@
 		console.log($('#product-list-wrapper'));
 	});
 </script>
+
