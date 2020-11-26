@@ -44,7 +44,14 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Socials</h2>
+									<h2 class="socials-title">
+										<div class="h2-title">
+											Socials
+										</div>
+										<div class="h2-icon">
+											
+										</div>
+									</h2>
 								</header>
 								<section>
 									<!-- Twitch -->
@@ -259,3 +266,21 @@
 	});
 </script>
 
+
+<script>
+	const isLive = axios({
+		url: 'https://decapi.me/twitch/viewercount/pvvnytail',
+		method: 'get',
+	}).then((result) => {
+		const isLiveHtml = `	
+			<div class="live-gif-wrapper">
+				<img class="live-gif" src="./images/live/live.gif"  alt="Live now.">
+			</div>
+			<p class="live-text">Live now on Twitch</p>
+		`;
+
+		if (result.data.indexOf('offline') === -1) {
+			$('.h2-icon').html(isLiveHtml);
+		}
+	});
+</script>
